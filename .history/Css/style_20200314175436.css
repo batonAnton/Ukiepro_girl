@@ -1,0 +1,36 @@
+.block1 {
+  width: 1934px;
+  height: 920px;
+  transform: rotate(-180deg);
+  box-shadow: -8px 1px 116px rgba(0, 0, 0, 0.21);
+  background-image: radial-gradient(
+    circle 1673px at 29.24% 114.02%,
+    #22466c 0%,
+    #0e1f39 100%
+  );
+  /* opacity: -1; */
+}
+
+.block1 nav  {
+  width: 446px;
+  height: 19px;
+  /* opacity: -1; */
+  color: #ffffff;
+  font-family: "Museo 500- Regular";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.84px;
+  /* Text style for "Services" */
+  letter-spacing: 0.89px;
+}
+
+.block2 {
+  width: 1922px;
+  height: 2851px;
+  background-image: radial-gradient(
+    circle 1288px at 65.32% 35.97%,
+    #ff7260 0%,
+    #d74f4f 100%
+  );
+  /* opacity: -1; */
+}
