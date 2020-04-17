@@ -136,9 +136,9 @@ p {
   z-index: 0;
 }
 .block2_info {
-  overflow: hidden;
+  /* height: 895px; */
   width: 1200px;
-  padding-bottom: 210px;
+  padding-bottom: 810px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -280,7 +280,7 @@ p {
 }
 
 .block2_img_rombo img {
-  margin: -12% 0% 0% 59%;
+  margin: -12% 0% 0% 51%;
 }
 
 .same_img_info h1 {

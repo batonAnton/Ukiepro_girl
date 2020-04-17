@@ -39,13 +39,12 @@
   }
 }
 
-@media all and (max-width: 1350px) {
-  .block2_img img {
-    left: -60%;
-  }
-}
-
 @media all and (min-height: 535px) {
+  .block2_img img {
+    left: -55%;
+    top: 135%;
+  }
+
   .weare {
     margin: 20% 10%;
   }

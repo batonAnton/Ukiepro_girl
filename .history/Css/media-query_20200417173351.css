@@ -1,53 +1,13 @@
-@media all and (max-width: 1920px) {
+@media all  and  (max-width: 1920px) {
   .block2_img_rombo img {
     margin: -12% 0% 0% 55%;
   }
-}
 
-@media all and (min-width: 1785px) and (max-width: 1880px) {
-  block2_img img {
-    left: -29%;
-  }
+  
 }
-
-@media all and (min-width: 1620px) and (max-width: 1785px) {
-  block2_img img {
-    left: -40%;
-  }
-}
-
-@media all and (min-width: 1620px) and (max-width: 1780px) {
-  .block2_img img {
-    left: -36%;
-  }
-}
-@media all and (max-width: 1705px) {
+@media all  and  (max-width: 1705px){
   .block2_img img {
     left: -33%;
-  }
-}
-
-@media all and (min-width: 1435px) and (max-width: 1485px) {
-  .block2_img img {
-    left: -45%;
-  }
-}
-
-@media all and (min-width: 1360px) and (max-width: 1435px) {
-  .block2_img img {
-    left: -49%;
-  }
-}
-
-@media all and (max-width: 1350px) {
-  .block2_img img {
-    left: -60%;
-  }
-}
-
-@media all and (min-height: 535px) {
-  .weare {
-    margin: 20% 10%;
   }
 }
 

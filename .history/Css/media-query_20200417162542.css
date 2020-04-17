@@ -1,0 +1,45 @@
+/* @media all and (max-width: 1280px) {
+  .block1 .girl img {
+    width: 629px;
+    height: 857px;
+  }
+} */
+
+@media all and (min-width: 1120px) and (max-width: 1450px) {
+  .big_logo {
+    max-width: 80%;
+  }
+
+  .big_logo img {
+    height: auto;
+  }
+}
+
+@media all and (min-width: 750px) and (max-width: 1120px) {
+  .block1 nav {
+    margin-left: -120px;
+  }
+
+  .big_logo {
+    max-width: 80%;
+  }
+
+  .big_logo img {
+    height: auto;
+  }
+
+  .block1 .girl img {
+    width: 60%;
+    height: auto;
+  }
+}
+
+/* @media all and (min-width: 1120px) and (max-width: 1450px) {
+  .big_logo {
+    max-width: 50%;
+  }
+
+  .big_logo img {
+    height: auto;
+  }
+} */
