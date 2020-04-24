@@ -133,8 +133,6 @@
 @media all and (max-width: 320px) {
   * {
     text-align: center;
-    margin: auto;
-    display: block;
   }
 
   .block1 nav {
@@ -162,11 +160,6 @@
     height: auto;
   }
 
-  .btn_block1 {
-    margin-left: 0px;
-    text-align: center;
-  }
-
   /* block2 */
   .block2_img,
   .block2_img_rombo {
@@ -182,7 +175,7 @@
     margin-top: 100px;
   }
 
-  .weare p,
+  .weare,
   .wemake p {
     font-size: 18px;
     text-align: center;
@@ -197,10 +190,6 @@
     margin: auto;
     float: unset;
   }
-
-  .weare {
-    margin-top: 100px;
-  }
   .block2_info,
   .three_img_info {
     padding-bottom: 0px;
@@ -210,7 +199,7 @@
     display: block;
   }
 
-  .block2 .three_img_info h1,
+  .block2 .three_img_info,
   .wemake h1 {
     font-size: 35px;
   }

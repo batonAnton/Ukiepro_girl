@@ -131,11 +131,9 @@
 
 /* SMALL  SCREEN */
 @media all and (max-width: 320px) {
-  * {
-    text-align: center;
-    margin: auto;
-    display: block;
-  }
+  /* * {
+    overflow: hidden;
+  } */
 
   .block1 nav {
     display: none;
@@ -162,14 +160,8 @@
     height: auto;
   }
 
-  .btn_block1 {
-    margin-left: 0px;
-    text-align: center;
-  }
-
   /* block2 */
-  .block2_img,
-  .block2_img_rombo {
+  .block2 img {
     display: none;
   }
 
@@ -178,52 +170,8 @@
     text-align: center;
   }
 
-  .block2 button {
-    margin-top: 100px;
-  }
-
-  .weare p,
-  .wemake p {
+  .weare p {
     font-size: 18px;
     text-align: center;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 220px;
-  }
-
-  .wemake,
-  .weare {
-    margin: auto;
-    float: unset;
-  }
-
-  .weare {
-    margin-top: 100px;
-  }
-  .block2_info,
-  .three_img_info {
-    padding-bottom: 0px;
-  }
-
-  .block2 .three_img_info {
-    display: block;
-  }
-
-  .block2 .three_img_info h1,
-  .wemake h1 {
-    font-size: 35px;
-  }
-
-  .same_img_info p {
-    width: auto;
-    transform: none;
-    font-size: 20px;
-    margin-top: -100%;
-  }
-
-  .same_img_info {
-    width: auto;
-    height: 400px;
   }
 }

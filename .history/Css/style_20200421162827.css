@@ -12,9 +12,6 @@ button {
   text-transform: capitalize;
   font-size: 20px;
 }
-a {
-  text-decoration: none;
-}
 .container {
   max-width: 100%;
   width: 1100px;

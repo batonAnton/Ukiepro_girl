@@ -133,8 +133,6 @@
 @media all and (max-width: 320px) {
   * {
     text-align: center;
-    margin: auto;
-    display: block;
   }
 
   .block1 nav {
@@ -162,14 +160,8 @@
     height: auto;
   }
 
-  .btn_block1 {
-    margin-left: 0px;
-    text-align: center;
-  }
-
   /* block2 */
-  .block2_img,
-  .block2_img_rombo {
+  .block2_img .block2_img_rombo {
     display: none;
   }
 
@@ -182,27 +174,13 @@
     margin-top: 100px;
   }
 
-  .weare p,
-  .wemake p {
+  .weare p {
     font-size: 18px;
     text-align: center;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 220px;
   }
 
-  .wemake,
-  .weare {
-    margin: auto;
-    float: unset;
-  }
-
-  .weare {
-    margin-top: 100px;
-  }
-  .block2_info,
-  .three_img_info {
+  .block2_info {
     padding-bottom: 0px;
   }
 
@@ -210,8 +188,7 @@
     display: block;
   }
 
-  .block2 .three_img_info h1,
-  .wemake h1 {
+  .block2 .three_img_info h1 {
     font-size: 35px;
   }
 
