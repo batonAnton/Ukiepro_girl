@@ -3,12 +3,8 @@
 }
 
 a:hover {
-  text-shadow: 0 0 16px #fff;
-  transition: text-shadow 0.36s;
-}
-
-nav a:hover {
-  text-decoration: underline;
+  text-shadow: 0 0 100px #ffff;
+  transition: text-shadow 0.3s;
 }
 
 button {
@@ -360,7 +356,7 @@ p {
   text-align: left;
 }
 
-.block3 a {
+.block3 h1 {
   /* width: 285px; */
   height: 30px;
   color: #ffffff;
@@ -380,7 +376,7 @@ p {
   line-height: 28px;
 }
 
-.block3 .row_btn img {
+.block3 .row_btn {
   width: 40px;
   height: auto;
   margin-left: 20px;
@@ -583,10 +579,6 @@ p {
   letter-spacing: 1px;
   line-height: 60px;
   text-transform: capitalize;
-}
-
-.block7 nav a:hover {
-  text-decoration: none;
 }
 
 /* footer */

@@ -360,7 +360,7 @@ p {
   text-align: left;
 }
 
-.block3 a {
+.block3 .button {
   /* width: 285px; */
   height: 30px;
   color: #ffffff;
@@ -583,10 +583,6 @@ p {
   letter-spacing: 1px;
   line-height: 60px;
   text-transform: capitalize;
-}
-
-.block7 nav a:hover {
-  text-decoration: none;
 }
 
 /* footer */
