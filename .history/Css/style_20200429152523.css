@@ -1,16 +1,29 @@
-* {
-  max-width: 100%;
+a:hover {
+  text-shadow: 0 0 16px #fff;
+  transition: text-shadow 0.36s;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 button {
   width: 220px;
   height: 60px;
   border: none;
   border-radius: 33px;
   background-image: linear-gradient(180deg, #ff8067 0%, #df3939 100%);
+  background-color: transparent;
   color: #ffffff;
   font-family: "Museo -700";
+  text-transform: capitalize;
   font-size: 20px;
+  transition: background-color 0.3s;
 }
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 100%;
   width: 1100px;
@@ -124,8 +137,9 @@ p {
 }
 
 .block2 {
-  width: 1922px;
+  width: 100%;
   /* height: 2851px; */
+  overflow: hidden;
   padding-bottom: 300px;
   background-image: radial-gradient(
     circle 1288px at 65.32% 35.97%,
@@ -135,9 +149,9 @@ p {
   z-index: 0;
 }
 .block2_info {
-  /* height: 895px; */
+  overflow: hidden;
   width: 1200px;
-  padding-bottom: 810px;
+  padding-bottom: 210px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -151,9 +165,8 @@ p {
 } */
 
 .block2_img img {
-  height: 895px;
-  left: -45%;
-  top: 120%;
+  left: -25%;
+  top: 85%;
   position: absolute;
 }
 
@@ -276,16 +289,11 @@ p {
 /* rombo property */
 
 .block2_img_rombo {
-  width: 976px;
-  /* height: 1479px; */
-  /* left: 57%;
-  top: 205%; */
   position: relative;
-  overflow: hidden;
 }
 
 .block2_img_rombo img {
-  margin: -12% 0% 0% 30%;
+  margin: -12% 0% 0% 59%;
 }
 
 .same_img_info h1 {
@@ -315,21 +323,298 @@ p {
   background-color: #151f30;
   display: inline-block;
   text-align: center;
+  padding-bottom: 240px;
+  z-index: 2;
 }
 
-.block3 .h1_general{
+.block3 .h1_general {
   /* width: 424px; */
-height: 70px;
-margin-top:140px;
-color: #f06868;
-font-family: "Exo 2.0- Bold";
-font-size: 60px;
-font-weight: 700;
-letter-spacing: -0.68px;
-text-transform: uppercase;
+  height: 70px;
+  margin-top: 140px;
+  color: #f06868;
+  font-family: "Exo 2.0- Bold";
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -0.68px;
+  text-transform: uppercase;
 }
 
 .block3_same_block {
-  /* margin: auto; */
-  display: block
+  width: 1100px;
+  display: block;
+  margin-bottom: 60px;
+}
+
+.block3_info {
+  float: right;
+  margin-top: 100px;
+  text-align: left;
+}
+.block3_info_2 {
+  float: left;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.block3 a {
+  /* width: 285px; */
+  height: 30px;
+  color: #ffffff;
+  font-family: "Exo 2.0- Bold";
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.block3 p {
+  width: 462px;
+  height: 140px;
+  color: #ffffff;
+  font-family: "Museo 500- Regular";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+}
+
+.block3 .row_btn img {
+  width: 40px;
+  height: auto;
+  margin-left: 20px;
+  background-color: #151f30;
+  background-image: none;
+}
+
+/* block4 */
+
+.block4 {
+  background-image: radial-gradient(
+    circle 518px at 51.13% 543.37%,
+    #f17060 0%,
+    #d65454 100%
+  );
+  text-align: center;
+  z-index: 0;
+  position: relative;
+}
+
+.block4 img {
+  margin-top: -80px;
+  z-index: 2;
+}
+
+.block4_info {
+  position: absolute;
+  z-index: 0;
+  left: 40%;
+  margin-left: -50px;
+  top: 20%;
+  margin-top: -50px;
+}
+.block4 h1 {
+  height: 70px;
+  color: #1f3040;
+  font-family: "Exo 2.0- Bold";
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -0.68px;
+  text-transform: uppercase;
+}
+
+.block4 p {
+  height: 232px;
+  opacity: 0.85;
+  color: #1c2b3d;
+  font-family: "Museo 500- Regular";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 32px;
+}
+
+/* block5 */
+
+.block5 {
+  background-color: #151f30;
+  text-align: center;
+  width: auto;
+}
+
+.block5_info {
+  padding: 130px 0px 130px 0px;
+  width: 370px;
+  
+}
+.block5 .item .block5_info img {
+  width: 120px;
+  
+}
+
+.block5 h1 {
+  height: 23px;
+  color: #ffffff;
+  font-family: "Museo -700";
+  font-size: 20px;
+  letter-spacing: -0.21px;
+}
+.block5 p {
+  height: 132px;
+  color: #ffffff;
+  font-family: "Museo 500- Regular";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.59px;
+  line-height: 32px;
+}
+
+/* block6 */
+
+.block6 {
+  background-color: #1d2635;
+  display: inline-flex;
+  width: 100%;
+}
+
+.block6_info {
+  margin: 160px 0px 0px 300px;
+}
+
+.block6 h1 {
+  height: 70px;
+  color: #f06868;
+  font-family: "Exo 2.0- Bold";
+  font-size: 60px;
+  font-weight: 700;
+  /* letter-spacing: 1.33px; */
+  text-transform: uppercase;
+}
+
+.block6 p {
+  height: 38px;
+  color: #ffffff;
+  font-family: "Museo 500- Regular";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.block6 form {
+  /* padding: 100px; */
+  margin: 70px 0px 70px 0px;
+}
+
+.block6 input {
+  width: 360px;
+  height: 40px;
+  outline: 0;
+  background-color: #1d2635;
+  border-width: 0 0 2px;
+  border-color: #ffffff;
+  margin: 10px;
+}
+
+.block6_img {
+  /* width: 40%; */
+  padding-top: 50px;
+  margin-left: 300px;
+}
+
+.block7 {
+  width: 100%;
+  display: inline-flex;
+  box-shadow: -8px 1px 116px rgba(0, 0, 0, 0.21);
+  background-image: radial-gradient(
+    circle 2620px at 8.45% 1238.64%,
+    #151f2f 0%,
+    #2f4058 100%
+  );
+}
+
+.block7_info1 {
+  width: 40%;
+  margin: 160px 0px 0px 300px;
+}
+
+.block7_info2 {
+  width: 60%;
+  margin: 160px 0px 0px 0px;
+  display: inline-flex;
+}
+
+.block7 h1 {
+  height: 23px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-family: "Museo 500- Regular";
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+.block7 p {
+  margin: 70px 0px 70px 0px;
+  height: 120px;
+  opacity: 0.6;
+  color: #ffffff;
+  font-family: "Museo 500- Regular";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.block7 .socialNet {
+  margin-bottom: 180px;
+  padding: 10px;
+}
+.contacts_nav {
+  margin-left: 100px;
+}
+.contacts_nav img {
+  width: 44px;
+  height: 44px;
+  margin-right: 20px;
+}
+
+.block7 nav a {
+  display: flex;
+  color: #ffffff;
+  font-family: "Museo 500- Regular";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+
+.block7 nav a:hover {
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  padding: 40px 0px 40px 0px;
+  background-image: linear-gradient(
+    to right,
+    #151f2f 0%,
+    rgba(47, 64, 88, 0) 100%
+  );
+}
+
+footer p {
+  /* height: 30px; */
+  color: #ffffff;
+  font-family: "Museo 500- Regular";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+button:hover {
+  background-image: none;
+  background-color: #ffffff;
+  color: #df3939;
+  transition: background-color 0.3s;
 }
