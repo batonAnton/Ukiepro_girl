@@ -1,0 +1,10 @@
+div a p {
+  -webkit-columns: 1;
+          columns: 1;
+}
+
+div a span {
+  -ms-grid-column-align: start;
+      justify-self: start;
+}
+/*# sourceMappingURL=aaa.css.map */

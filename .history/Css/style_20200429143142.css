@@ -447,7 +447,7 @@ p {
   padding: 130px 0px 130px 0px;
   width: 370px;
 }
-.block5 .item .block5_info img {
+.item .block5_info img {
   display: inline;
   width: 120px;
 }
@@ -460,6 +460,7 @@ p {
   letter-spacing: -0.21px;
 }
 .block5 p {
+  padding: 30px;
   height: 132px;
   color: #ffffff;
   font-family: "Museo 500- Regular";
