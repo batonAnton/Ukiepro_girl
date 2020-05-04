@@ -135,10 +135,6 @@
     text-align: center;
   }
 
-  /* .h1_general {
-    font-size: 35px;
-  } */
-
   .block1 nav {
     display: none;
   }
@@ -235,9 +231,11 @@
   .lastblock {
     height: auto;
   }
-
   .block2_info2 .lastblock .h1_general {
     margin-left: 0%;
+    font-size: 35px;
+  }
+  .h1_general {
     font-size: 35px;
   }
 }
