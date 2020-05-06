@@ -269,6 +269,10 @@ p {
   text-transform: uppercase;
 }
 
+.block2_info2 .h1_general {
+  margin-left: 10%;
+}
+
 .wemake p {
   height: 256px;
   /* opacity: 0.9; */
@@ -450,8 +454,6 @@ p {
 .block5 .item .block5_info img {
   width: 120px;
 }
-
-
 
 .block5 h1 {
   height: 23px;

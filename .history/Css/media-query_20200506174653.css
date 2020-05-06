@@ -318,40 +318,4 @@
   .block6 form {
     margin: 70px 30px 70px 30px;
   }
-  .block6 button {
-    margin-bottom: 50px;
-  }
-  .block6_img {
-    display: none;
-  }
-
-  /* footer */
-
-  .block7 {
-    display: grid;
-  }
-  .block7_info1 {
-    width: 250px;
-    height: auto;
-    margin-left: auto;
-    text-align: left;
-    margin-right: auto;
-  }
-
-  .block7_info2 {
-    display: grid;
-    width: 250px;
-    height: auto;
-    margin-left: auto;
-    text-align: left;
-    margin-right: auto;
-  }
-  .block7 h1 {
-    text-align: left;
-  }
-
-  .contacts_nav {
-    margin-left: 0px;
-    margin-top: 50px;
-  }
 }

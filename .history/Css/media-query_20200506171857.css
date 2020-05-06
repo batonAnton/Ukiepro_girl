@@ -135,6 +135,10 @@
     text-align: center;
   }
 
+  
+
+  
+
   .block1 nav {
     display: none;
   }
@@ -246,112 +250,18 @@
     height: auto;
   }
 
-  .block3_info {
+  .block3_info{
     margin-top: 50px;
-    float: unset;
+    float:unset;
     text-align: center;
   }
-  .block3 .row_btn img {
+  .block3 .row_btn img{
     width: 30px;
     margin-left: 0px;
   }
-  .block3 p {
+  .block3 p{
     font-size: 16px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 250px;
+    margin-top: 20px;
   }
-
-  .block3_info_2 {
-    margin-top: 50px;
-    float: unset;
-    text-align: center;
-  }
-
-  /* block4 */
-
-  .block4_info {
-    position: relative;
-    left: 0%;
-    margin-left: 0px;
-    top: -20%;
-    margin-top: 0px;
-    padding-bottom: 50px;
-  }
-
-  .block4 h1 {
-    font-size: 35px;
-    margin-top: 50px;
-    height: auto;
-  }
-  .block4 p {
-    font-size: 16px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 250px;
-    color: #ffffff;
-  }
-
-  /* block 6 anketa */
-  .block6_info {
-    margin: 0px;
-  }
-  .block6 h1 {
-    font-size: 35px;
-    margin-top: 50px;
-    height: auto;
-  }
-
-  .block6 p {
-    font-size: 16px;
-  }
-
-  .block6 input {
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .block6 form {
-    margin: 70px 30px 70px 30px;
-  }
-  .block6 button {
-    margin-bottom: 50px;
-  }
-  .block6_img {
-    display: none;
-  }
-
-  /* footer */
-
-  .block7 {
-    display: grid;
-  }
-  .block7_info1 {
-    width: 250px;
-    height: auto;
-    margin-left: auto;
-    text-align: left;
-    margin-right: auto;
-  }
-
-  .block7_info2 {
-    display: grid;
-    width: 250px;
-    height: auto;
-    margin-left: auto;
-    text-align: left;
-    margin-right: auto;
-  }
-  .block7 h1 {
-    text-align: left;
-  }
-
-  .contacts_nav {
-    margin-left: 0px;
-    margin-top: 50px;
-  }
+  
 }
