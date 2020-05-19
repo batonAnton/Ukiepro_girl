@@ -198,7 +198,6 @@
 
   .weare {
     margin-top: 100px;
-    margin-bottom: 50px;
   }
   .block2_info,
   .three_img_info {
@@ -304,11 +303,11 @@
     color: #ffffff;
   }
 
-  /* block 6 anketa */
-
-  .block6 {
-    display: inline-block;
+  .block5_info img {
+    display: initial;
   }
+
+  /* block 6 anketa */
   .block6_info {
     margin: 0px;
   }
@@ -343,22 +342,14 @@
     display: grid;
   }
   .block7_info1 {
-    margin-top: 160px;
     width: 250px;
     height: auto;
     margin-left: auto;
     text-align: left;
     margin-right: auto;
   }
-  .logo7 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  }
 
   .block7_info2 {
-    margin-top: 8 0px;
     display: grid;
     width: 250px;
     height: auto;
@@ -368,10 +359,6 @@
   }
   .block7 h1 {
     text-align: left;
-  }
-
-  .block7 .socialNet {
-    margin-bottom: 0px;
   }
 
   .contacts_nav {

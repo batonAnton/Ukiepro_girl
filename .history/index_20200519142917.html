@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="./Css/style.css" />
     <link rel="stylesheet" href="./Css/media-query.css" />
     <link rel="stylesheet" href="Css/owl.carousel.min.css" />
+    <style>
+      #myDIV {
+        height: 250px;
+        width: 250px;
+        overflow: auto;
+      }
+
+      #content {
+        height: 800px;
+        width: 2000px;
+        background-color: coral;
+      }
+    </style>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
@@ -17,7 +31,7 @@
     <script src="js/owl-carousel.js"></script>
   </head>
   <body>
-    <div id="myDIV" onscroll="myFunction()">
+    <div>
       <div class="block1">
         <nav>
           <a href="">services</a>
@@ -48,7 +62,18 @@
             <img src="./img/block2_logo.png" alt="" />
           </div>
 
-          <div class="weare">
+          <p>
+      Scroll inside the div element to display the number of pixels the content
+      of div is scrolled horizontally and vertically.
+    </p>
+
+    <div id="myDIV" onscroll="myFunction()">
+      <div id="content">Scroll inside me!</div>
+    </div>
+
+    <p id="demo"></p>
+
+          <div class="weare" id="myDIV" onscroll="myFunction()">
             <h1 class="h1_general">we are</h1>
             <p>
               Business is not about success but about efficiency! <br />
@@ -265,7 +290,6 @@
             alt="Login"
             src="./img/ukrepro_logo_foot.png"
             alt="logo"
-            class="logo7"
           />
           <p>
             Company slogan or other description. <br />
@@ -328,14 +352,15 @@
       </footer>
     </div>
 
+    
     <script>
       function myFunction() {
         var elmnt = document.getElementById("myDIV");
-        // var x = elmnt.scrollLeft;
+        var x = elmnt.scrollLeft;
         var y = elmnt.scrollTop;
-        document.getElementById("demo").innerHTML = "Vertically: " + y + "px";
+        document.getElementById("demo").innerHTML =
+          "Horizontally: " + x + "px<br>Vertically: " + y + "px";
       }
-      console.log(x);
     </script>
   </body>
 </html>

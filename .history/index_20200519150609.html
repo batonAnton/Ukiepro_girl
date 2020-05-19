@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="./Css/style.css" />
     <link rel="stylesheet" href="./Css/media-query.css" />
     <link rel="stylesheet" href="Css/owl.carousel.min.css" />
+    <style>
+      #content {
+        height: 800px;
+        width: 2000px;
+        background-color: coral;
+      }
+    </style>
+
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
@@ -265,7 +273,6 @@
             alt="Login"
             src="./img/ukrepro_logo_foot.png"
             alt="logo"
-            class="logo7"
           />
           <p>
             Company slogan or other description. <br />
@@ -333,9 +340,9 @@
         var elmnt = document.getElementById("myDIV");
         // var x = elmnt.scrollLeft;
         var y = elmnt.scrollTop;
-        document.getElementById("demo").innerHTML = "Vertically: " + y + "px";
+        document.getElementById("demo").innerHTML =
+          "px<br>Vertically: " + y + "px";
       }
-      console.log(x);
     </script>
   </body>
 </html>

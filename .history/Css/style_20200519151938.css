@@ -1,16 +1,32 @@
 * {
   max-width: 100%;
 }
+a:hover {
+  text-shadow: 0 0 16px #fff;
+  transition: text-shadow 0.36s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 button {
   width: 220px;
   height: 60px;
   border: none;
   border-radius: 33px;
   background-image: linear-gradient(180deg, #ff8067 0%, #df3939 100%);
+  background-color: transparent;
   color: #ffffff;
   font-family: "Museo -700";
+  text-transform: capitalize;
   font-size: 20px;
+  transition: background-color 0.3s;
 }
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 100%;
   width: 1100px;
@@ -126,6 +142,7 @@ p {
 .block2 {
   width: 100%;
   /* height: 2851px; */
+  overflow: hidden;
   padding-bottom: 300px;
   background-image: radial-gradient(
     circle 1288px at 65.32% 35.97%,
@@ -135,9 +152,9 @@ p {
   z-index: 0;
 }
 .block2_info {
-  /* height: 895px; */
+  overflow: hidden;
   width: 1200px;
-  padding-bottom: 810px;
+  padding-bottom: 210px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -252,6 +269,10 @@ p {
   text-transform: uppercase;
 }
 
+.block2_info2 .h1_general {
+  margin-left: 10%;
+}
+
 .wemake p {
   height: 256px;
   /* opacity: 0.9; */
@@ -279,7 +300,7 @@ p {
 }
 
 .block2_img_rombo img {
-  margin: -12% 0% 0% 51%;
+  margin: -12% 0% 0% 59%;
 }
 
 .same_img_info h1 {
@@ -342,7 +363,7 @@ p {
   text-align: left;
 }
 
-.block3 h1 {
+.block3 a {
   /* width: 285px; */
   height: 30px;
   color: #ffffff;
@@ -362,9 +383,12 @@ p {
   line-height: 28px;
 }
 
-.block3 .row_btn {
-  width: auto;
+.block3 .row_btn img {
+  width: 40px;
   height: auto;
+  margin-left: 20px;
+  background-color: #151f30;
+  background-image: none;
 }
 
 /* block4 */
@@ -424,6 +448,11 @@ p {
 
 .block5_info {
   padding: 130px 0px 130px 0px;
+  width: 370px;
+}
+
+.block5 .item .block5_info img {
+  width: 120px;
 }
 
 .block5 h1 {
@@ -434,7 +463,6 @@ p {
   letter-spacing: -0.21px;
 }
 .block5 p {
-  padding: 30px;
   height: 132px;
   color: #ffffff;
   font-family: "Museo 500- Regular";
@@ -526,6 +554,7 @@ p {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1px;
+  padding-bottom: 20px;
 }
 .block7 p {
   margin: 70px 0px 70px 0px;
@@ -546,9 +575,14 @@ p {
 .contacts_nav {
   margin-left: 100px;
 }
+.contacts_nav img {
+  width: 44px;
+  height: 44px;
+  margin-right: 20px;
+}
 
 .block7 nav a {
-  display: grid;
+  display: flex;
   color: #ffffff;
   font-family: "Museo 500- Regular";
   font-size: 16px;
@@ -556,6 +590,10 @@ p {
   letter-spacing: 1px;
   line-height: 60px;
   text-transform: capitalize;
+}
+
+.block7 nav a:hover {
+  text-decoration: none;
 }
 
 /* footer */
@@ -578,4 +616,11 @@ footer p {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 30px;
+}
+
+button:hover {
+  background-image: none;
+  background-color: #ffffff;
+  color: #df3939;
+  transition: background-color 0.3s;
 }
